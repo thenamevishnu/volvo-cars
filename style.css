@@ -1,0 +1,131 @@
+.home-page-background{
+   background-image: url(images/home-page-background.avif);
+   height:650px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right;
+}
+.center-text{
+    position: relative;
+    top:170px;
+}
+.font-fam-volvo{
+    font-variant: small-caps;
+    letter-spacing: 1.44px;
+    font-weight: 700;
+}
+.font-fam-volvo-novum{
+    font-family: "Volvo Novum", Arial, sans-serif;
+}
+.learn-more a{
+    font-size: 13px;
+    color: white;
+}
+.learn{
+    font-size: 12px;
+}
+.learn a{
+    font-size: 13px;
+}
+.learn-more a:hover{
+    color: #a3a3a3;
+}
+.fonts-size{
+    font-size: 0.9rem;
+}
+.hover-flow{
+    overflow: hidden;
+}
+.hover-flow img{
+    transition: 0.1s;
+}
+.hover-flow img:hover{
+    scale: 1.2;
+}
+.hide-overflow:hover{
+    color:blue;
+}
+.message-bubble , .back-bubble{
+    width: 50px;
+    height: 50px;
+}
+.back-bubble{
+    display: none;
+    z-index: 1;
+}
+.bg-ground-div{
+    background-image: url(images/range-car-web-banner_5120x2194-pix-06.avif);
+    width: 85%;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+}
+.bg-ground-div-2{
+    background-image: url(images/range-car-web-banner_5120x2194-pix-06-1.jpg);
+    width: 85%;
+    height: 60vw;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+}
+.bg-ground-div{
+    margin-top: 12vw;
+}
+.hover-opacity{
+    transition: 5s;
+}
+.hover-opacity:hover{
+    opacity: 0.9;
+}
+.align-contactless{
+    margin-left: 5vw;
+    margin-top: 10vw;
+    font-size: 2vw;
+}
+.bg-ground-align{
+    padding-top: 10vw;
+    padding-left: 4vw;
+}
+.align-button{
+    padding-top: 17vw;
+    padding-left: 5vw;
+}
+.footer-links{
+    width: 40%;
+}
+.lh-for{
+    line-height: 1.7;
+}
+.mt-align{
+    margin-top: 5vw;
+    font-size: small;
+}
+.mt-align-2{
+    font-size: small;
+}
+.message-bubble-chat{
+    display: none;
+    position: absolute;
+    z-index: -1;
+    bottom: 2vh;
+    right: 2vw;
+    width: 20vw;
+    height: 30vw;
+    background-color: rgb(180, 189, 197);
+}
+@media only screen and (max-width: 992px){
+    .margin-align-quick{
+        margin-left: 8vw;
+    }
+    .message-bubble-chat{
+        display: none;
+        position: absolute;
+        z-index: -1;
+        bottom: 2vh;
+        right: 2vw;
+        width: 35vw;
+        height: 50vw;
+        background-color: rgb(180, 189, 197);
+    }
+}
